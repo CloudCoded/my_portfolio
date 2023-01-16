@@ -123,7 +123,7 @@ main {
     
 
     img {
-        width: 130%;
+        width: 100%;
         border: 3px #fff solid;
 
         &:hover {
@@ -175,7 +175,7 @@ main {
 .btn-dark {
     @extend .btn;
     margin-left: 0.4rem;
-    width: 130%;
+    width: 100%;
     background: darken($primary-color, 50);
     color: #fff;
 }
@@ -183,7 +183,7 @@ main {
 .btn-light {
     @extend .btn;
     margin-left: 0.4rem;
-    width: 130%;
+    width: 100%;
     background: lighten($primary-color, 50);
     color: #333;
 }
