@@ -196,7 +196,7 @@ main {
   margin-right: 20%;
   grid-template-columns: repeat(3, 1fr); }
   .projects img {
-    width: 130%;
+    width: 100%;
     border: 3px #fff solid; }
     .projects img:hover {
       opacity: 0.5;
@@ -233,13 +233,13 @@ main {
 
 .btn-dark {
   margin-left: 0.4rem;
-  width: 130%;
+  width: 100%;
   background: black;
   color: #fff; }
 
 .btn-light {
   margin-left: 0.4rem;
-  width: 130%;
+  width: 100%;
   background: #c4c4c4;
   color: #333; }
 
