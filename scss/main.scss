@@ -54,6 +54,7 @@ main {
     //height: 100%;
     min-height: calc(100vh - 60px);
     padding: 20vh;
+    align-items: center;
 }
 
 #home {
@@ -75,6 +76,7 @@ main {
 
 .about-info {
     display: grid;
+    align-items: center;
     grid-gap: 30px;
     grid-template-areas: 
     'bioimage bio bio'
@@ -87,6 +89,7 @@ main {
     margin: auto;
     border-radius: 50% 30% 20%;
     border: $secondary-color 3px solid;
+    margin-right: 20%;
 }
 
 .bio {
@@ -115,11 +118,12 @@ main {
 .projects {
     display: grid;
     grid-gap: 0.7rem;
+    margin-right: 20%;
     grid-template-columns: repeat(3, 1fr);
     
 
     img {
-        width: 100%;
+        width: 130%;
         border: 3px #fff solid;
 
         &:hover {
@@ -139,9 +143,9 @@ main {
     margin-top: 1rem;
 
     div {
-        font-size: 1.5rem;
+        font-size: 1rem;
         border: 3px #fff solid;
-        padding: 1.5rem 2.5rem;
+        padding: 1rem 1.5rem;
         margin-bottom: 3rem;
         @include easeOut;
 
@@ -171,7 +175,7 @@ main {
 .btn-dark {
     @extend .btn;
     margin-left: 0.4rem;
-    width: 100%;
+    width: 130%;
     background: darken($primary-color, 50);
     color: #fff;
 }
@@ -179,7 +183,7 @@ main {
 .btn-light {
     @extend .btn;
     margin-left: 0.4rem;
-    width: 100%;
+    width: 130%;
     background: lighten($primary-color, 50);
     color: #333;
 }

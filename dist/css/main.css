@@ -143,7 +143,8 @@ header {
 main {
   padding: 4rem;
   min-height: calc(100vh - 60px);
-  padding: 20vh; }
+  padding: 20vh;
+  align-items: center; }
 
 #home {
   overflow: hidden; }
@@ -159,6 +160,7 @@ main {
 
 .about-info {
   display: grid;
+  align-items: center;
   grid-gap: 30px;
   grid-template-areas: 'bioimage bio bio' 'job1 job2 job3';
   grid-template-columns: repeat(3, 1fr); }
@@ -166,7 +168,8 @@ main {
 .bio-image {
   margin: auto;
   border-radius: 50% 30% 20%;
-  border: #eece1a 3px solid; }
+  border: #eece1a 3px solid;
+  margin-right: 20%; }
 
 .bio {
   grid-area: bio;
@@ -190,9 +193,10 @@ main {
 .projects {
   display: grid;
   grid-gap: 0.7rem;
+  margin-right: 20%;
   grid-template-columns: repeat(3, 1fr); }
   .projects img {
-    width: 100%;
+    width: 130%;
     border: 3px #fff solid; }
     .projects img:hover {
       opacity: 0.5;
@@ -206,9 +210,9 @@ main {
   align-items: center;
   margin-top: 1rem; }
   .boxes div {
-    font-size: 1.5rem;
+    font-size: 1rem;
     border: 3px #fff solid;
-    padding: 1.5rem 2.5rem;
+    padding: 1rem 1.5rem;
     margin-bottom: 3rem;
     transition: all 1.5s ease-out; }
     .boxes div:hover {
@@ -229,13 +233,13 @@ main {
 
 .btn-dark {
   margin-left: 0.4rem;
-  width: 100%;
+  width: 130%;
   background: black;
   color: #fff; }
 
 .btn-light {
   margin-left: 0.4rem;
-  width: 100%;
+  width: 130%;
   background: #c4c4c4;
   color: #333; }
 
