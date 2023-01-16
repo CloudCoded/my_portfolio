@@ -85,7 +85,7 @@ main {
 .bio-image {
     //grid-area: biomage;
     margin: auto;
-    border-radius: 50%;
+    border-radius: 50% 30% 20%;
     border: $secondary-color 3px solid;
 }
 
@@ -108,7 +108,7 @@ main {
     background: lighten($primary-color, 5);
     padding: 0.5rem;
     border-bottom: $secondary-color 5px solid;
-    border-radius: 5px;
+    border-radius: 15px 50px 30px;
 }
 
 // Work/Projects
@@ -144,12 +144,16 @@ main {
 
 .btn-dark {
     @extend .btn;
+    margin-left: 0.4rem;
+    width: 100%;
     background: darken($primary-color, 50);
     color: #fff;
 }
 
 .btn-light {
     @extend .btn;
+    margin-left: 0.4rem;
+    width: 100%;
     background: lighten($primary-color, 50);
     color: #333;
 }

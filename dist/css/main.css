@@ -165,7 +165,7 @@ main {
 
 .bio-image {
   margin: auto;
-  border-radius: 50%;
+  border-radius: 50% 30% 20%;
   border: #eece1a 3px solid; }
 
 .bio {
@@ -185,7 +185,7 @@ main {
   background: #515151;
   padding: 0.5rem;
   border-bottom: #eece1a 5px solid;
-  border-radius: 5px; }
+  border-radius: 15px 50px 30px; }
 
 .projects {
   display: grid;
@@ -209,10 +209,14 @@ main {
     color: #000; }
 
 .btn-dark {
+  margin-left: 0.4rem;
+  width: 100%;
   background: black;
   color: #fff; }
 
 .btn-light {
+  margin-left: 0.4rem;
+  width: 100%;
   background: #c4c4c4;
   color: #333; }
 
