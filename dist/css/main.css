@@ -91,12 +91,14 @@
   transition-delay: 0.4s; }
 
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }
 
 body {
   background: #444;
   color: #fff;
-  height: 100%;
+  height: 100vh;
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
@@ -140,11 +142,28 @@ header {
 .text-secondary {
   color: #eece1a; }
 
-main {
-  padding: 4rem;
-  min-height: calc(100vh - 60px);
-  padding: 20vh;
+.main-wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center; }
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 4rem; }
+
+.wrapper-padding {
+  padding: 2rem; }
+
+.contact {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; }
 
 #home {
   overflow: hidden; }
