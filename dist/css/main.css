@@ -181,7 +181,8 @@ header {
   display: grid;
   align-items: center;
   grid-gap: 30px;
-  grid-template-areas: 'bioimage bio bio' 'job1 job2 job3';
+  grid-template-areas: 'bioimage bio bio'
+ 'job1 job2 job3';
   grid-template-columns: repeat(3, 1fr); }
 
 .bio-image {
@@ -207,7 +208,7 @@ header {
   background: #515151;
   padding: 0.5rem;
   border-bottom: #eece1a 5px solid;
-  border-radius: 15px 50px 30px; }
+  border-radius: 15px; }
 
 .projects {
   display: grid;
@@ -303,7 +304,11 @@ header {
       width: 130px;
       height: 130px; }
   .about-info {
-    grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
+    grid-template-areas: 'bioimage'
+ 'bio'
+ 'job1'
+ 'job2'
+ 'job3';
     grid-template-columns: 1fr; }
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
