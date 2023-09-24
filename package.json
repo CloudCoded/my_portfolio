@@ -5,13 +5,11 @@
   "main": "index.js",
   "homepage":"https://CloudCoded.github.io/my_portfolio",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
-    "deploy": "gh-pages -d dist"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
   },
   "author": "Abdulazeez Olamide",
   "license": "MIT",
   "dependencies": {
-    "gh-pages": "^4.0.0",
     "node-sass": "^8.0.0"
   }
 }
